@@ -15,3 +15,13 @@
 2025-05-08 14:13:37,109 - HealthCheck - ERROR - Invalid Discord webhook URL. Skipping Discord notification.
 2025-05-08 14:13:41,183 - HealthCheck - ERROR - Service Local Node App check failed: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000246CF1EBD90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
 2025-05-08 14:13:41,183 - HealthCheck - ERROR - Invalid Discord webhook URL. Skipping Discord notification.
+2025-05-08 14:17:53,430 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:17:57,484 - HealthCheck - ERROR - Service Local Flask App check failed: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022D620570E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-08 14:18:02,547 - HealthCheck - ERROR - Service Local Node App check failed: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000022D6205B610>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-05-08 14:20:07,961 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:20:12,015 - HealthCheck - ERROR - Service Local Flask App check failed: Service is not running or port is not accessible
+2025-05-08 14:20:16,762 - HealthCheck - ERROR - Service Local Node App check failed: Service is not running or port is not accessible
+2025-05-08 14:20:17,400 - HealthCheck - ERROR - Service Sample API check failed: Connection failed
+2025-05-08 14:21:35,935 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:26:43,790 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:30:18,102 - HealthCheck - INFO - Starting health check service
