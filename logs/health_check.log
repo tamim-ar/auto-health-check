@@ -1,0 +1,2 @@
+2025-05-08 14:10:40,812 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:10:44,897 - HealthCheck - ERROR - Service Local Flask App check failed: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C3342770E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))

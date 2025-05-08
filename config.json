@@ -1,0 +1,29 @@
+{
+    "services": [
+        {
+            "name": "Local Flask App",
+            "url": "http://localhost:5000",
+            "expected_status": 200
+        },
+        {
+            "name": "Local Node App",
+            "url": "http://localhost:3000",
+            "expected_status": 200
+        }
+    ],
+    "notifications": {
+        "discord": {
+            "enabled": true,
+            "webhook_url": ""
+        },
+        "email": {
+            "enabled": false,
+            "smtp_server": "smtp.gmail.com",
+            "smtp_port": 587,
+            "sender_email": "",
+            "sender_password": "",
+            "recipient_email": ""
+        }
+    },
+    "check_interval": 300
+}
