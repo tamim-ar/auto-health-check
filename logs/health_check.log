@@ -25,3 +25,119 @@
 2025-05-08 14:21:35,935 - HealthCheck - INFO - Starting health check service
 2025-05-08 14:26:43,790 - HealthCheck - INFO - Starting health check service
 2025-05-08 14:30:18,102 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:37:20,695 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:37:22,735 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:37:33,761 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:37:34,503 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:37:35,520 - HealthCheck - INFO - Service AWS Health is healthy
+2025-05-08 14:37:47,593 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:37:51,669 - HealthCheck - INFO - Skipping notification for React Frontend due to cooldown
+2025-05-08 14:37:55,732 - HealthCheck - INFO - Skipping notification for MongoDB due to cooldown
+2025-05-08 14:37:56,598 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:37:57,301 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:37:58,130 - HealthCheck - INFO - Service AWS Health is healthy
+2025-05-08 14:38:10,163 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:38:14,252 - HealthCheck - INFO - Skipping notification for React Frontend due to cooldown
+2025-05-08 14:38:18,316 - HealthCheck - INFO - Skipping notification for MongoDB due to cooldown
+2025-05-08 14:38:19,250 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:38:19,951 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:38:20,669 - HealthCheck - INFO - Service AWS Health is healthy
+2025-05-08 14:38:32,734 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:38:36,839 - HealthCheck - INFO - Skipping notification for React Frontend due to cooldown
+2025-05-08 14:38:40,949 - HealthCheck - INFO - Skipping notification for MongoDB due to cooldown
+2025-05-08 14:38:41,858 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:38:42,571 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:38:43,697 - HealthCheck - INFO - Service AWS Health is healthy
+2025-05-08 14:38:55,741 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:38:59,816 - HealthCheck - INFO - Skipping notification for React Frontend due to cooldown
+2025-05-08 14:39:03,882 - HealthCheck - INFO - Skipping notification for MongoDB due to cooldown
+2025-05-08 14:39:04,691 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:39:05,408 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:39:06,329 - HealthCheck - INFO - Service AWS Health is healthy
+2025-05-08 14:39:18,383 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:39:22,458 - HealthCheck - INFO - Skipping notification for React Frontend due to cooldown
+2025-05-08 14:39:26,571 - HealthCheck - INFO - Skipping notification for MongoDB due to cooldown
+2025-05-08 14:39:27,425 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:39:28,140 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:39:29,060 - HealthCheck - INFO - Service AWS Health is healthy
+2025-05-08 14:42:09,993 - HealthCheck - INFO - Starting health check service
+2025-05-08 14:42:12,050 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:42:12,075 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:42:12,909 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:42:13,623 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:42:25,672 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:42:25,675 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:42:26,524 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:42:26,908 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:42:38,972 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:42:38,977 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:42:39,836 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:42:40,283 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:42:52,332 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:42:52,336 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:42:53,363 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:42:53,931 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:43:05,969 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:43:05,972 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:43:06,967 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:43:07,603 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:43:19,644 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:43:19,659 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:43:20,415 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:43:21,063 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:43:33,098 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:43:33,103 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:43:33,922 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:43:34,336 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:43:46,376 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:43:46,403 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:43:47,319 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:43:47,743 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:43:59,775 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:43:59,778 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:44:00,618 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:44:01,024 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:44:13,059 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:44:13,062 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:44:13,943 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:44:14,354 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:44:26,380 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:44:26,384 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:44:27,342 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:44:27,790 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:44:39,855 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:44:39,870 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:44:40,668 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:44:41,065 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:44:53,112 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:44:53,127 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:44:53,984 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:44:54,384 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:45:06,420 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:45:06,423 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:45:07,296 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:45:07,697 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:45:19,740 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:45:19,742 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:45:20,607 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:45:21,028 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:45:33,063 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:45:33,067 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:45:34,013 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:45:34,528 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:45:46,601 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:45:46,604 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:45:47,437 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:45:47,839 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:45:59,862 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:45:59,865 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:46:00,711 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:46:01,187 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:46:13,217 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:46:13,219 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:46:14,072 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:46:14,506 - HealthCheck - INFO - Service GitHub API is healthy
+2025-05-08 14:46:26,644 - HealthCheck - INFO - Service Flask Backend is healthy
+2025-05-08 14:46:26,647 - HealthCheck - INFO - Service React Frontend is healthy
+2025-05-08 14:46:27,977 - HealthCheck - INFO - Service Google is healthy
+2025-05-08 14:46:28,976 - HealthCheck - INFO - Service GitHub API is healthy

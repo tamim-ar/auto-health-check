@@ -1,6 +1,24 @@
 # Auto Health Check
 
-A service monitoring tool that checks the health of local services and sends alerts via email or Discord when services go down or recover.
+## Quick Start
+
+1. Install all dependencies:
+```bash
+pip install -r requirements.txt
+npm install
+```
+
+2. Run everything with one command:
+```bash
+python start.py
+```
+
+This will start:
+- Flask test app on port 5000
+- Node.js test app on port 3000
+- Health checker monitoring both services
+
+Press Ctrl+C to stop all services.
 
 ## Features
 
@@ -129,3 +147,17 @@ Services can be defined in two ways:
 - Network access to monitored services
 - Discord webhook URL (for Discord notifications)
 - SMTP credentials (for email notifications)
+
+## Testing MongoDB Monitoring
+
+1. Install MongoDB locally or use Docker:
+```bash
+docker run -d -p 27017:27017 --name mongodb mongo:latest
+```
+
+2. Start the MongoDB test endpoint:
+```bash
+python test_mongodb.py
+```
+
+This will create a test endpoint that checks MongoDB connectivity.

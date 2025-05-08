@@ -1,3 +1,7 @@
-Local|Local Flask App|http://localhost:5000|200
-Local|Local Node App|http://localhost:3000|200
-External|Sample API|https://api.example.com/health|200
+# Local Development Services
+Local|Flask Backend|http://localhost:5000|200
+Local|React Frontend|http://localhost:3000|200
+
+# External Services
+External|Google|https://www.google.com|200
+External|GitHub API|https://api.github.com/zen|200

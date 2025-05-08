@@ -1,13 +1,18 @@
 {
     "services": [
         {
-            "name": "Local Flask App",
+            "name": "Test Flask App",
             "url": "http://localhost:5000",
             "expected_status": 200
         },
         {
-            "name": "Local Node App",
+            "name": "Test Node App",
             "url": "http://localhost:3000",
+            "expected_status": 200
+        },
+        {
+            "name": "Google",
+            "url": "https://www.google.com",
             "expected_status": 200
         }
     ],
@@ -17,13 +22,8 @@
             "webhook_url": "https://discord.com/api/webhooks/1369951080024244296/42ZX2TMW6E4rJ6WkhDtxINvtUvrvcSugKPxDlSi5O_CWVkwDCEjQVJX-28f9avTtGfcE"
         },
         "email": {
-            "enabled": false,
-            "smtp_server": "smtp.gmail.com",
-            "smtp_port": 587,
-            "sender_email": "",
-            "sender_password": "",
-            "recipient_email": ""
+            "enabled": false
         }
     },
-    "check_interval": 300
+    "check_interval": 10
 }

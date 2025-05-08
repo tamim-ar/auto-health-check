@@ -1,0 +1,13 @@
+{
+  "name": "auto-health-check",
+  "version": "1.0.0",
+  "description": "Test servers for auto health check",
+  "scripts": {
+    "start:node": "node test_node_app.js",
+    "start:flask": "python test_flask_app.py",
+    "start": "npm run start:node"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
