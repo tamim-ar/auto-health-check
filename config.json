@@ -14,7 +14,7 @@
     "notifications": {
         "discord": {
             "enabled": true,
-            "webhook_url": ""
+            "webhook_url": "https://discord.com/api/webhooks/1369951080024244296/42ZX2TMW6E4rJ6WkhDtxINvtUvrvcSugKPxDlSi5O_CWVkwDCEjQVJX-28f9avTtGfcE"
         },
         "email": {
             "enabled": false,

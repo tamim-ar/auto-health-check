@@ -28,26 +28,36 @@ def load_config():
         return json.load(f)
 
 def send_discord_alert(webhook_url, service_name, error_message):
-    webhook = DiscordWebhook(
-        url=webhook_url,
-        content=f"⚠️ Service Alert: {service_name} is down!\nError: {error_message}"
-    )
-    webhook.execute()
+    if not webhook_url or not webhook_url.startswith(('http://', 'https://')):
+        logger.error("Invalid Discord webhook URL. Skipping Discord notification.")
+        return
+        
+    try:
+        webhook = DiscordWebhook(
+            url=webhook_url,
+            content=f"⚠️ Service Alert: {service_name} is down!\nError: {error_message}"
+        )
+        webhook.execute()
+    except Exception as e:
+        logger.error(f"Failed to send Discord alert: {str(e)}")
 
 def send_email_alert(config, service_name, error_message):
-    msg = MIMEText(f"Service {service_name} is down!\nError: {error_message}")
-    msg['Subject'] = f"Service Alert: {service_name}"
-    msg['From'] = config['notifications']['email']['sender_email']
-    msg['To'] = config['notifications']['email']['recipient_email']
+    try:
+        msg = MIMEText(f"Service {service_name} is down!\nError: {error_message}")
+        msg['Subject'] = f"Service Alert: {service_name}"
+        msg['From'] = config['notifications']['email']['sender_email']
+        msg['To'] = config['notifications']['email']['recipient_email']
 
-    with smtplib.SMTP(config['notifications']['email']['smtp_server'], 
-                      config['notifications']['email']['smtp_port']) as server:
-        server.starttls()
-        server.login(
-            config['notifications']['email']['sender_email'],
-            config['notifications']['email']['sender_password']
-        )
-        server.send_message(msg)
+        with smtplib.SMTP(config['notifications']['email']['smtp_server'], 
+                          config['notifications']['email']['smtp_port']) as server:
+            server.starttls()
+            server.login(
+                config['notifications']['email']['sender_email'],
+                config['notifications']['email']['sender_password']
+            )
+            server.send_message(msg)
+    except Exception as e:
+        logger.error(f"Failed to send email alert: {str(e)}")
 
 def check_service(service, config):
     try:
